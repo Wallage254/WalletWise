@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/primary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Currency Converter"
+            android:textColor="#FFF"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:elevation="4dp"
+            android:padding="16dp"
+            android:backgroundTint="@color/white">
+
+            <EditText
+                android:id="@+id/editAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter amount"
+                android:inputType="numberDecimal"
+                android:textColor="#222"
+                android:textSize="18sp"
+                android:padding="10dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerFrom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerTo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"/>
+
+            <Button
+                android:id="@+id/convertButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Convert"
+                android:textColor="#FFF"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/poeachpink"/>
+
+            <TextView
+                android:id="@+id/resultText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Converted Amount: --"
+                android:textColor="#222"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+
+        <!-- Simple Calculator -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculator"
+            android:textColor="#FFF"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:id="@+id/calculatorLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@android:color/white"
+            android:layout_marginTop="12dp"
+            android:elevation="4dp">
+
+            <EditText
+                android:id="@+id/calculatorInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="0"
+                android:textSize="24sp"
+                android:padding="12dp"
+                android:inputType="none"
+                android:focusable="false"
+                android:background="@android:color/transparent"/>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="4"
+                android:rowCount="5"
+                android:layout_marginTop="8dp"
+                android:alignmentMode="alignMargins"
+                android:useDefaultMargins="true">
+
+                <!-- Calculator Buttons -->
+                <Button android:text="7" android:id="@+id/btn7"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+                <Button android:text="8" android:id="@+id/btn8"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+                <Button android:text="9" android:id="@+id/btn9"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+                <Button android:text="÷" android:id="@+id/btnDivide"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+
+                <Button android:text="4" android:id="@+id/btn4"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+                <Button android:text="5" android:id="@+id/btn5"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+                <Button android:text="6" android:id="@+id/btn6"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+                <Button android:text="×" android:id="@+id/btnMultiply"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+
+                <Button android:text="1" android:id="@+id/btn1"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+                <Button android:text="2" android:id="@+id/btn2"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+                <Button android:text="3" android:id="@+id/btn3"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+                <Button android:text="−" android:id="@+id/btnMinus"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+
+                <Button android:text="0" android:id="@+id/btn0"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+                <Button android:text="." android:id="@+id/btnDot"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+                <Button android:text="C" android:id="@+id/btnClear"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+                <Button android:text="+" android:id="@+id/btnPlus"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+
+                <TextView android:text="=" android:id="@+id/btnEqual"
+                    android:layout_columnSpan="4"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:background="@color/poeachpink"/>
+            </GridLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

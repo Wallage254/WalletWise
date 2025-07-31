@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="180dp"
+    android:height="120dp"
+    android:viewportWidth="180"
+    android:viewportHeight="120">
+    
+    <!-- Calendar body -->
+    <path
+        android:fillColor="#FFF9E5"
+        android:strokeColor="#E0C97F"
+        android:strokeWidth="2"
+        android:pathData="M20,30 L160,30 L160,100 L20,100 Z"/>
+    
+    <!-- Calendar rings -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M40,30 m-6,0 a6,6 0,1 1,12 0 a6,6 0,1 1,-12 0"/>
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M70,30 m-6,0 a6,6 0,1 1,12 0 a6,6 0,1 1,-12 0"/>
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M100,30 m-6,0 a6,6 0,1 1,12 0 a6,6 0,1 1,-12 0"/>
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M130,30 m-6,0 a6,6 0,1 1,12 0 a6,6 0,1 1,-12 0"/>
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M160,30 m-6,0 a6,6 0,1 1,12 0 a6,6 0,1 1,-12 0"/>
+    
+    <!-- Calendar grid lines -->
+    <path
+        android:strokeColor="#BDBDBD"
+        android:strokeWidth="2"
+        android:pathData="M40,50 L140,50 M40,65 L140,65 M40,80 L140,80 M60,35 L60,90 M80,35 L80,90 M100,35 L100,90 M120,35 L120,90 M140,35 L140,90"/>
+</vector> 

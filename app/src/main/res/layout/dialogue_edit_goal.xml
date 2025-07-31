@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/editGoalName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Goal Name"
+        android:padding="10dp"
+        android:background="@drawable/text_background" />
+
+    <EditText
+        android:id="@+id/editTargetAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Target Amount"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/text_background" />
+
+    <EditText
+        android:id="@+id/editAddSaved"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add to Saved Amount"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/text_background" />
+
+    <Button
+        android:id="@+id/updateGoalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/poeachpink" />
+</LinearLayout>

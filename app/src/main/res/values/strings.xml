@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">WalletWise</string>
+    <string name="get_started">Get Started</string>
+    <string name="logo_desc">WalletWise logo</string>
+    <string name="splash_description">Smart expense &amp; budget tracking</string>
+
+    <!-- Onboarding Screen 1 -->
+    <string name="onboarding_title_1">Gain total control\nof your money</string>
+    <string name="onboarding_desc_1">Become your own money manager\nand make every cent count</string>
+    <string name="onboarding_image_1_desc">Hand holding money illustration</string>
+
+    <!-- Onboarding Screen 2 -->
+    <string name="onboarding_title_2">Know where your\nmoney goes</string>
+    <string name="onboarding_desc_2">Track your transactions easily,\nwith categories and financial report</string>
+    <string name="onboarding_image_2_desc">Money tracking illustration</string>
+
+    <!-- Onboarding Screen 3 -->
+    <string name="onboarding_title_3">Planning ahead</string>
+    <string name="onboarding_desc_3">Setup your budget for each category\nso you in control</string>
+    <string name="onboarding_image_3_desc">Budget planning illustration</string>
+
+    <!-- Common -->
+    <string name="next">Next</string>
+
+    <!-- Registration Screen -->
+    <string name="register_now">Register Now!</string>
+    <string name="register_subtitle">Get to understand how money work!</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="confirm_password">confirm-password</string>
+    <string name="register">Register</string>
+    <string name="already_registered">Already registered? </string>
+
+    <!-- Login Screen -->
+    <string name="login">Login</string>
+    <string name="welcomeback">Welcome Back!</string>
+    <string name="forgot_password">Forgot password? click here</string>
+    <string name="already_logged_in">Already logged in? </string>
+    <string name="login_illustration_desc">Login illustration</string>
+
+    <string name="terms_agree">I agree to the </string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="wallet_balance">Wallet Balance</string>
+    <string name="wallet_btn">wallet_btn</string>
+    <string name="spendings">Spendings</string>
+    <string name="transactions">Transactions</string>
+    <string name="budget">Budget</string>
+    <string name="goals">Goals</string>
+    <string name="insights_tips"><![CDATA[Insights & Tips]]></string>
+    <string name="currency_convert">Currency Convert</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="add_budget">Add Budget</string>
+    <string name="add_transaction">Add Transaction</string>
+    <string name="add_goal">Add Goal</string>
+
+    <string name="show_password">Show Password</string>
+    <string name="default_web_client_id">395031617922-45h6ada9tdjicuttgjul0vgalfgpr7j6.apps.googleusercontent.com</string>
+    <string name="search">search</string>
+    <string name="expense">Expense</string>
+    <string name="income">Income</string>
+    <string name="transfer">Transfer</string>
+    <string name="account">Account</string>
+    <string name="amount">Amount</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="category">Category</string>
+    <string name="date">Date</string>
+    <string name="save_transaction">SAVE TRANSACTION</string>
+    <string name="your_financial_goals_and_insights">Your Financial Goals and Insights</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="language">Language</string>
+    <string name="logout">Logout</string>
+    <string name="app_version_1_0_0">App Version: 1.0.0</string>
+    <string name="profile_summary">Profile Summary</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="reciept_scanner">Reciept scanner</string>
+    <string name="subcategory">Subcategory</string>
+    <string name="unlock_custom_recurrence_and_more_premium_features">Unlock custom recurrence and more premium features.</string>
+    <string name="upgrade_now">Upgrade Now</string>
+    <string name="cancel">Cancel</string>
+    <string name="upgrade_to_premium">Upgrade to Premium</string>
+    <string name="transaction">Transaction</string>
+    <string name="details">Details</string>
+
+
+</resources>

@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.Wallet_Wise" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Your base settings (empty is fine for now) -->
+    </style>
+
+    <style name="Theme.Wallet_Wise" parent="Base.Theme.Wallet_Wise">
+        <!-- Make status bar transparent -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- Ensure icons are dark (good for light backgrounds) -->
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Optional: override primary colors to prevent purple from leaking -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/white</item>
+    </style>
+
+    <style name="ThemeOverlay.Wallet_Wise.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
+</resources>

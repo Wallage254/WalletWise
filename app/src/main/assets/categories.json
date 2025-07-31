@@ -1,0 +1,20 @@
+{
+  "Food": [
+    "Dairy",
+    "Bakery",
+    "Groceries",
+    "Vegetables",
+    "Staples",
+    "Baking"
+  ],
+  "Household": [
+    "Toiletries"
+  ],
+  "Clothing": [
+    "Footwear",
+    "Bottomwear"
+  ],
+  "Beverages": [
+    "Drinks"
+  ]
+}
